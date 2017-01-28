@@ -1,0 +1,22 @@
+{
+  "name": "business",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Vlad Zelenko"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/VladZelenko/Business",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}

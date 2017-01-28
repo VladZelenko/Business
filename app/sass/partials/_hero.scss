@@ -1,0 +1,23 @@
+.topbar {
+	width: 100%;
+	min-height: 40px;
+	box-shadow: 0 1px 0 #e2e2e2;
+	background-color: #f0f2f4;
+}
+
+.hero {
+	background: url('../../img/hero-bg.png') no-repeat;
+	background-size: cover;
+	min-height: 690px;
+	color: $origin_font_color;
+	text-align: center;
+
+	h2 {
+		margin-top: 175px;
+		font: 700 48px $primary_font;
+	}
+	p {
+		margin-bottom: 30px;
+		font: 300 30px $primary_font;
+	}
+}
