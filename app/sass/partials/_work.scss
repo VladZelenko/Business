@@ -1,0 +1,14 @@
+.list-work {
+	padding: 110px 0 130px 0;
+	width: 100%;
+	min-height: 870px;
+	background: #de2b24;
+	color: $origin_font_color;
+	.title {color: $origin_font_color;}
+	.subtitle {
+		&:after {background: $origin_font_color;}
+	}
+	img {width: 100%;}
+	.portfolio-container {margin-top: 45px;}
+	.project {padding: 0;}
+}

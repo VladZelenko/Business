@@ -16,5 +16,12 @@
 		transition: all .5s ease-in-out;
 		text-decoration: none;
 	}
-
+}
+.form-btn {
+	width: 160px;
+	height: 45px;
+	border-radius: 2px 3px 3px 2px;
+	background-color: #de2b24;
+	color: $origin_font_color;
+	font: 700 15px/45px $primary_font;
 }

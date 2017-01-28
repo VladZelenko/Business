@@ -1,0 +1,45 @@
+.section_5 {
+	width: 100%;
+	min-height: 850px;
+	background: #1287bf;
+	padding: 100px 0 110px 0;
+	text-align: center;
+	h2 {
+		color: $origin_font_color;
+		font: 700 36px $primary_font;
+	}
+	p {
+		color: $origin_font_color;
+		font: 300 20px $primary_font;
+	}
+	a {
+		display: block;
+		width: 65px;
+		height: 65px;
+		margin: 15px auto 50px auto;
+		border: 3px solid #ffffff;
+		border-radius: 50%;
+		text-decoration: none;
+		color: $origin_font_color;
+		&:hover {text-decoration: none;}
+
+		.fa-angle-down {
+			font-size: 44px;
+			line-height: 65px;
+		}
+	}
+	.form-container {
+		padding: 80px 0 70px 0;
+		background: $origin_font_color;
+		min-height: 480px;
+		border-radius: 2px;
+		p {
+			padding-bottom: 40px;
+			max-width: 555px;
+			margin: 0 auto;
+			font: 400 15px/22px $primary_font;
+			color: #828282;
+		}
+		li {margin-bottom: 5px;}
+	}
+}

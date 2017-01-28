@@ -3,6 +3,10 @@
 	min-height: 1400px;
 	background: #f3f3f3;
 	padding: 90px 0 135px 0;
-
 	.row {margin-top: 45px;}
+	.content {
+		background: $origin_font_color;
+		padding: 20px;
+		text-align: justify;
+	}
 }

@@ -20,6 +20,7 @@
 }
 
 .step-box-1 {
+	display: none;
 	position: relative;
 	left: 300px;
 	top: 70px;
@@ -36,4 +37,12 @@
 	height: 105px;
 	border: 2px solid $origin_font_color;
 	background: #de2b24;
+}
+
+span.arrow-top {
+	position: relative;
+	bottom: 130px;
+	border-left: 60px solid transparent;
+	border-bottom: 60px solid $origin_font_color;
+	border-right: 60px solid transparent;
 }
