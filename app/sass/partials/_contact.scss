@@ -1,0 +1,33 @@
+.contact {
+	width: 100%;
+	min-height: 490px;
+	padding: 90px 0 85px 0;
+	background: #2a2a2a;
+	text-align: center;
+	color: $origin_font_color;
+
+	h2 {font: 700 22px/29px $primary_font;}
+	.social-icons {
+		li {
+			margin: 30px 10px 35px 10px;
+			display: inline-block;
+		}
+	}
+	.fa {
+		width: 50px;
+		height: 50px;
+		border-radius: 1px;
+		border: 2px solid #515151;
+		color: $origin_font_color;
+		font-size: 23px;
+		font-weight: 400;
+		line-height: 50px;
+		text-align: center;
+		&:hover {
+			border: 2px solid #de2b24;
+			transition: all .5s ease-in-out;
+		}
+	}
+	p {font: 400 14px $secondary_font;}
+
+}

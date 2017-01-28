@@ -14,3 +14,19 @@
 	}
 	input[type="submit"] {margin-top: 35px;}
 }
+
+.contact-form {
+	input[type="email"] {
+		display: block;
+		padding-left: 20px;
+		max-width: 685px;
+		min-width: 280px;
+		width: 100%;
+		margin: 30px auto 25px auto;
+		height: 55px;
+		border-radius: 1px;
+		border: none;
+		outline: none;
+		background-color: #515151;
+	}
+}

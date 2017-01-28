@@ -5974,6 +5974,42 @@ button.close {
     .section_5 .form-container li {
       margin-bottom: 5px; }
 
+.contact {
+  width: 100%;
+  min-height: 490px;
+  padding: 90px 0 85px 0;
+  background: #2a2a2a;
+  text-align: center;
+  color: #ffffff; }
+  .contact h2 {
+    font: 700 22px/29px "Neue Helvetica", sans-serif; }
+  .contact .social-icons li {
+    margin: 30px 10px 35px 10px;
+    display: inline-block; }
+  .contact .fa {
+    width: 50px;
+    height: 50px;
+    border-radius: 1px;
+    border: 2px solid #515151;
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center; }
+    .contact .fa:hover {
+      border: 2px solid #de2b24;
+      transition: all .5s ease-in-out; }
+  .contact p {
+    font: 400 14px "OpenSans", sans-serif; }
+
+.footer {
+  width: 100%;
+  min-height: 65px;
+  background: #515151;
+  text-align: center;
+  color: #ffffff;
+  font: 400 14px/65px "OpenSans", sans-serif; }
+
 .primary-btn {
   display: block;
   max-width: 330px;
@@ -6000,6 +6036,18 @@ button.close {
   color: #ffffff;
   font: 700 15px/45px "Neue Helvetica", sans-serif; }
 
+.contact-btn {
+  width: 155px;
+  height: 55px;
+  border-radius: 1px;
+  border: 2px solid #515151;
+  background: none;
+  font: 700 17px "Helvetica", sans-serif; }
+  .contact-btn:hover {
+    background: #ffffff;
+    color: #424242;
+    transition: all .5s ease-in-out; }
+
 .form-container input[type='text'] {
   padding-left: 20px;
   max-width: 445px;
@@ -6014,6 +6062,19 @@ button.close {
 
 .form-container input[type="submit"] {
   margin-top: 35px; }
+
+.contact-form input[type="email"] {
+  display: block;
+  padding-left: 20px;
+  max-width: 685px;
+  min-width: 280px;
+  width: 100%;
+  margin: 30px auto 25px auto;
+  height: 55px;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  background-color: #515151; }
 
 .title {
   color: #424242;

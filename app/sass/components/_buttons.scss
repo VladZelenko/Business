@@ -25,3 +25,29 @@
 	color: $origin_font_color;
 	font: 700 15px/45px $primary_font;
 }
+// .close-btn {
+// 			position: relative;
+// 			left: 20px;
+// 			bottom: 115px;
+// 			display: block;
+// 			width: 40px;
+// 			height: 40px;
+// 			background: #de2b24;
+// 			border: 2px solid #ffffff;
+// 			border-radius: 50%;
+// 			font: 300 28px/60px $primary_font;
+// 		}
+
+.contact-btn {
+	width: 155px;
+	height: 55px;
+	border-radius: 1px;
+	border: 2px solid #515151;
+	background: none;
+	font: 700 17px $origin_font;
+	&:hover {
+		background: $origin_font_color;
+		color: $secondary_font_color;
+		transition: all .5s ease-in-out;
+	}
+}
