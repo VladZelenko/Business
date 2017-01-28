@@ -5933,6 +5933,35 @@ button.close {
     margin-top: 45px; }
   .list-work .project {
     padding: 0; }
+  .list-work .list-works li {
+    position: relative;
+    overflow: hidden; }
+  .list-work .list-works img {
+    display: block; }
+  .list-work .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(243, 94, 89, 0.9);
+    color: #ffffff;
+    text-align: center;
+    transition: all .5s;
+    transform: scale(0);
+    opacity: 0; }
+  .list-work .list-works li:hover .overlay {
+    opacity: 1;
+    transform: scale(1); }
+  .list-work .fa-paper-plane-o {
+    font-size: 36px; }
+  .list-work .hovereffect-title h5 {
+    font: 700 26px "Neue Helvetica", sans-serif; }
+  .list-work .hovereffect-title p {
+    font: 400 16px "Neue Helvetica", sans-serif; }
 
 .section_5 {
   width: 100%;
