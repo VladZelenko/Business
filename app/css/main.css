@@ -1,79 +1,4 @@
 @charset "UTF-8";
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-*, *:after, *:before {
-  box-sizing: border-box; }
-
-li {
-  list-style: none; }
-
-a {
-  text-decoration: none; }
-
-a:hover {
-  text-decoration: none; }
-
-img {
-  max-width: 100%;
-  height: auto; }
-
-@media (min-width: 770px) and (max-width: 1370px) {
-  .container {
-    width: 80%;
-    margin: 0 auto; } }
-
-@media (min-width: 670px) {
-  .header .link-logo {
-    display: inline-block;
-    width: 270px;
-    font: 400 15px "Neue Helvetica", sans-serif; }
-  .header img {
-    float: left; }
-  .header .head-logo {
-    display: block;
-    font: 700 37px "Neue Helvetica", sans-serif; } }
-
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -5889,32 +5814,155 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-.header {
-  width: 100%; }
-  .header .top-nav {
-    min-height: 110px;
-    background: #ffffff;
-    border: none;
-    position: relative; }
-  .header .link-logo {
-    padding-top: 30px;
-    display: inline-block;
-    width: 270px;
-    font: 400 14px "Neue Helvetica", sans-serif; }
-  .header img {
-    margin: 5px 10px 0 0;
-    float: left; }
-  .header .head-logo {
-    display: block;
-    font: 700 24px "Neue Helvetica", sans-serif; }
-  .header .gamburder {
-    margin: 40px 20px 0 0; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *:after, *:before {
+  box-sizing: border-box; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+@media (min-width: 770px) and (max-width: 1370px) {
+  .container {
+    width: 80%;
+    margin: 0 auto; } }
 
 .topbar {
   width: 100%;
-  min-height: 40px;
   box-shadow: 0 1px 0 #e2e2e2;
   background-color: #f0f2f4; }
+  .topbar .contact-info {
+    min-height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center; }
+    .topbar .contact-info .phone-item {
+      position: relative;
+      bottom: 3px; }
+    .topbar .contact-info a {
+      margin: 0 20px;
+      color: #424242;
+      font: 400 15px "Neue Helvetica", sans-serif; }
+    .topbar .contact-info .fa-mobile {
+      margin-right: 10px;
+      font-size: 24px;
+      font-weight: 400; }
+    .topbar .contact-info .fa-envelope {
+      margin-right: 10px;
+      font-size: 19px;
+      font-weight: 400; }
+    .topbar .contact-info .fa-facebook {
+      margin-left: 10px;
+      width: 25px;
+      height: 25px;
+      border-radius: 3px 2px 2px 3px;
+      background-color: #1287bf;
+      color: #ffffff;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center; }
+
+.header {
+  padding: 30px 0 35px 0;
+  background: #ffffff;
+  width: 100%;
+  min-height: 110px; }
+  .header .logo {
+    display: inline-block;
+    float: left;
+    width: 210px;
+    font: 400 14px "Neue Helvetica", sans-serif;
+    margin-top: 10px; }
+    .header .logo img {
+      margin: 5px 10px 0 0;
+      float: left; }
+    .header .logo a {
+      color: #424242;
+      font: 700 14px "Neue Helvetica", sans-serif;
+      display: block; }
+    .header .logo .head-logo {
+      display: block;
+      font: 700 24px "Neue Helvetica", sans-serif; }
+  .header .fa-bars {
+    font-size: 26px; }
+
+.nav {
+  display: flex;
+  justify-content: flex-end; }
+  .nav #top-nav-active {
+    color: #de2b24; }
+
+.nav li a,
+#touch-menu {
+  display: block;
+  padding: 15px;
+  color: #424242;
+  font: 700 14px "Neue Helvetica", sans-serif; }
+
+.nav li a:hover {
+  color: #de2b24;
+  background: none;
+  text-decoration: none;
+  transition: all .3s ease-in-out; }
+
+#touch-menu:hover {
+  color: #424242; }
+
+#touch-menu {
+  display: none; }
 
 .hero {
   background: url("../../img/hero-bg.png") no-repeat;
@@ -6071,7 +6119,8 @@ button.close {
   color: #ffffff;
   font: 400 14px/65px "OpenSans", sans-serif; }
 
-.top-nav-btn {
+#top-nav-btn {
+  float: right;
   width: 170px;
   height: 35px;
   display: block;
@@ -6192,3 +6241,45 @@ span.arrow-top {
   border-left: 60px solid transparent;
   border-bottom: 60px solid #ffffff;
   border-right: 60px solid transparent; }
+
+@media (min-width: 670px) {
+  .header .link-logo {
+    display: inline-block;
+    width: 270px;
+    font: 400 15px "Neue Helvetica", sans-serif; }
+  .header img {
+    float: left; }
+  .header .head-logo {
+    display: block;
+    font: 700 37px "Neue Helvetica", sans-serif; } }
+
+@media (min-width: 320px) and (max-width: 970px) {
+  .nav {
+    display: none; }
+    .nav li a {
+      background: none;
+      border-top: 1px solid #eee;
+      color: #090909; }
+      .nav li a:hover {
+        color: #de2b24;
+        border-left: 4px solid #ff5959;
+        border-radius: none; }
+  .nav li:first-child a {
+    border-top: none; }
+  #touch-menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    text-decoration: none; }
+    #touch-menu .fa-bars {
+      font-size: 22px; } }
+
+@media (min-width: 320px) and (max-width: 970px) {
+  .container {
+    width: 95%;
+    margin: 0 auto; } }
+
+@media (min-width: 970px) and (max-width: 1600px) {
+  .container {
+    width: 75%;
+    margin: 0 auto; } }

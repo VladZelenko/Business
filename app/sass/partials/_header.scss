@@ -1,25 +1,51 @@
-.header{
+.header {
+	padding: 30px 0 35px 0;
+	background: $origin_font_color;
 	width: 100%;
+	min-height: 110px;
 
-	.top-nav {
-		min-height: 110px;
-		background: $origin_font_color;
-		border: none;
-		position: relative;
-	}
-	.link-logo {
-		padding-top: 30px;
+	.logo {
 		display: inline-block;
-		width: 270px;
-		font: 400 14px $primary_font;
-	}
-	img {
-		margin: 5px 10px 0 0;
 		float: left;
+		width: 210px;
+		font: 400 14px $primary_font;
+		margin-top: 10px;
+		img {
+			margin: 5px 10px 0 0;
+			float: left;
+		}
+		a {
+			color: $secondary_font_color;
+			font: 700 14px $primary_font;
+			display: block;
+		}
+		.head-logo {
+			display: block;
+			font: 700 24px $primary_font;
+		}
 	}
-	.head-logo {
-		display: block;
-		font: 700 24px $primary_font;
-	}
-	.gamburder {margin: 40px 20px 0 0;}
+	.fa-bars {font-size: 26px;}
 }
+.nav {
+	display: flex;
+	justify-content: flex-end;
+	#top-nav-active {color: #de2b24;}
+}
+
+.nav li a,
+#touch-menu {
+	display: block;
+	padding: 15px;
+	color: $secondary_font_color;
+	font: 700 14px $primary_font;
+}
+
+.nav li a:hover {
+	color: #de2b24;
+	background: none;
+	text-decoration: none;
+	transition: all .3s ease-in-out;
+}
+#touch-menu:hover {color: $secondary_font_color;}
+#touch-menu {display: none;}
+
