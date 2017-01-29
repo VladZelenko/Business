@@ -1,0 +1,23 @@
+.portfolio {
+	width: 100%;
+	min-height: 1400px;
+	background: #f3f3f3;
+	padding: 90px 0 135px 0;
+	.row {margin-top: 45px;}
+	.content {
+		max-width: 800px;
+		min-width: 220px;
+		width: 100%;
+		background: $origin_font_color;
+		padding: 20px;
+		text-align: justify;
+		color: $primary_font_color;
+		font: 400 14px/22px $secondary_font;
+
+		h3  {
+			padding-bottom: 15px;
+			color: $secondary_font_color;
+			font: 400 18px/26px $helvetica_bold_font;
+		}
+	}
+}

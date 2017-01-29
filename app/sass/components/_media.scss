@@ -1,19 +1,15 @@
-
-@media (min-width: 670px) {
-	.header {
-		.link-logo {
-			display: inline-block;
-			width: 270px;
-			font: 400 15px $primary_font;
-		}
-		img {float: left;}
-		.head-logo {
-			display: block;
-			font: 700 37px $primary_font;
-		}
+@media (min-width: 320px) and (max-width: 970px) { 
+	.container {
+		width: 95%;
+		margin: 0 auto;
 	}
 }
-
+@media (min-width: 970px) and (max-width: 1600px) { 
+	.container {
+		width: 85%;
+		margin: 0 auto;
+	}
+}
 //==================HEADER===========================================//
 @media (min-width: 320px) and (max-width: 970px) {
 	.nav {display: none;
@@ -40,15 +36,58 @@
 	}
 }
 //==================HEADER the END===========================================//
-@media (min-width: 320px) and (max-width: 970px) { 
-	.container {
-		width: 95%;
-		margin: 0 auto;
+@media (min-width: 320px) and (max-width: 1340px) {
+	.step-box-1, .step-box-2 {display: none;}
+}
+@media (min-width: 1350px) {
+	.step-box-1 {
+		position: absolute;
+		top: 70px;
+		left: -120px;
+		display: block;
+		width: 105px;
+		height: 105px;
+		border-radius: 3px 2px 2px 3px;
+		border: 2px solid $origin_font_color;
+		background-color: #de2b24;
+		text-align: center;
+		color: $origin_font_color;
+		font: 700 60px $step_font;
+		i {
+			display: block;
+			width: 105px;
+			height: 30px;
+		}
+		span {font: 400 20px $origin_font;}
+	}
+	.step-box-2 {
+		position: absolute;
+		top: 70px;
+		left: 810px;
+		display: block;
+		width: 105px;
+		height: 105px;
+		border-radius: 3px 2px 2px 3px;
+		border: 2px solid $origin_font_color;
+		background-color: #de2b24;
+		text-align: center;
+		color: $origin_font_color;
+		font: 700 60px $step_font;
+		i {
+			display: block;
+			width: 105px;
+			height: 30px;
+		}
+		span {font: 400 20px $origin_font;}
 	}
 }
-@media (min-width: 970px) and (max-width: 1600px) { 
-	.container {
-		width: 75%;
-		margin: 0 auto;
+//=====================================================
+
+@media (min-width: 1350px) {
+	.portfolio {
+		.content {
+			padding: 70px 70px 70px 90px;
+		}
+		.text-postion {text-align: right;}
 	}
 }

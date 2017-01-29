@@ -37,6 +37,11 @@
 	background-color: #de2b24;
 	color: $origin_font_color;
 	font: 700 15px/45px $primary_font;
+	&:hover {
+		background: $origin_font_color;
+		color: #de2b24;
+		transition: all .5s ease-in-out;
+	}
 }
 // .close-btn {
 // 			position: relative;
