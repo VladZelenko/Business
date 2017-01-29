@@ -10,32 +10,13 @@
 	}
 	img {width: 100%;}
 	.portfolio-container {margin-top: 45px;}
-
-
-	.project {
-		padding: 0;
-	}
-	// .hovereffect img {display: block;}
-	// .overlay {
-	// 	display: none;
-	// 	position: absolute;
-	// 	left: 0;
-	// 	top: 0;
-	// 	width: 100%;
-	// 	height: 100%;
-	// 	background: rgba(243, 94, 89, 0.9);
-	// 	color: #ffffff;
-	// 	text-align: center;
-	// 	transition: all .5s;
-	// }
+	.project {padding: 0;}
 	.list-works {
 		li {
 			position: relative;
 			overflow: hidden;
 		}
-		img {
-			display: block;
-		}
+		img {display: block;}
 	}
 	.overlay {
 		display: flex;
