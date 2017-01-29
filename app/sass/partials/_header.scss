@@ -1,0 +1,25 @@
+.header{
+	width: 100%;
+
+	.top-nav {
+		min-height: 110px;
+		background: $origin_font_color;
+		border: none;
+		position: relative;
+	}
+	.link-logo {
+		padding-top: 30px;
+		display: inline-block;
+		width: 270px;
+		font: 400 14px $primary_font;
+	}
+	img {
+		margin: 5px 10px 0 0;
+		float: left;
+	}
+	.head-logo {
+		display: block;
+		font: 700 24px $primary_font;
+	}
+	.gamburder {margin: 40px 20px 0 0;}
+}

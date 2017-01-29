@@ -63,6 +63,17 @@ img {
     width: 80%;
     margin: 0 auto; } }
 
+@media (min-width: 670px) {
+  .header .link-logo {
+    display: inline-block;
+    width: 270px;
+    font: 400 15px "Neue Helvetica", sans-serif; }
+  .header img {
+    float: left; }
+  .header .head-logo {
+    display: block;
+    font: 700 37px "Neue Helvetica", sans-serif; } }
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -5878,6 +5889,27 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+.header {
+  width: 100%; }
+  .header .top-nav {
+    min-height: 110px;
+    background: #ffffff;
+    border: none;
+    position: relative; }
+  .header .link-logo {
+    padding-top: 30px;
+    display: inline-block;
+    width: 270px;
+    font: 400 14px "Neue Helvetica", sans-serif; }
+  .header img {
+    margin: 5px 10px 0 0;
+    float: left; }
+  .header .head-logo {
+    display: block;
+    font: 700 24px "Neue Helvetica", sans-serif; }
+  .header .gamburder {
+    margin: 40px 20px 0 0; }
+
 .topbar {
   width: 100%;
   min-height: 40px;
@@ -6038,6 +6070,17 @@ button.close {
   text-align: center;
   color: #ffffff;
   font: 400 14px/65px "OpenSans", sans-serif; }
+
+.top-nav-btn {
+  width: 170px;
+  height: 35px;
+  display: block;
+  border-radius: 4px;
+  background-color: #de2b24;
+  color: #ffffff;
+  font: 700 15px/35px "Neue Helvetica", sans-serif;
+  text-align: center;
+  text-decoration: none; }
 
 .primary-btn {
   display: block;

@@ -1,3 +1,15 @@
+.top-nav-btn {
+	width: 170px;
+	height: 35px;
+	display: block;
+	border-radius: 4px;
+	background-color: #de2b24;
+	color: $origin_font_color;
+	font: 700 15px/35px $primary_font;
+	text-align: center;
+	text-decoration: none;
+}
+
 .primary-btn {
 	display: block;
 	max-width: 330px;
